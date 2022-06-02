@@ -215,9 +215,10 @@ body {
     top: calc(0% + 0px);
     /* left: 0px; */
     /* width: 20.1%; */
-    width: 615px;
-    height: 517px;
-    
+    /* width: 615px; */
+    width: calc(32.5% - 15px);
+    /* height: 517px; */
+    height: calc(60% - 5px);
     position: absolute;
     right: 5px;
 }
@@ -235,7 +236,8 @@ body {
 #TreeVis {
     height: calc(40% - 10px);
     /* width: calc(60% - 10px); */
-    width: 1293px;
+    /* width: 1293px; */
+    width: calc(67.5%);
     position: absolute;
     left: 0px;
     /* right: 5px; */
@@ -249,21 +251,23 @@ body {
     right: 5px;
     /* left: 0px; */
     top: calc(60% - 0px);
+    width: calc(32.5% - 15px);
 }
 
 #Sun {
     height: calc(100% - 35px);
-    width: 610px;
+    /* width: 610px; */
 }
 
 #tempVis1 {
+    height: calc(60% - 5px);
     /* height: calc(60% - 10px);
     width: calc(100% - 10px); */
     position: absolute;
     /* right: 5px; */
     left: 0px;
-    /* width: 1520px; */
-    width: 1293px;
+    /* width: 1293px; */
+    width: calc(67.5%);
 }
 
 

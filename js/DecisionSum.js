@@ -1,5 +1,24 @@
 // console.log(2222)
 
+let sunHig = document.getElementById("SunVis").offsetHeight;
+
+d3.select("#Sun").style('transform', 'translate(' + 0 + ',' + (sunHig - 30 - 300) / 2 + 'px)')
+
+let mainHig = document.getElementById("tempVis1").offsetHeight;
+
+d3.select("#mainVis").style('transform', 'translate(' + 0 + ',' + (mainHig - 30 - 480) / 2 + 'px)')
+
+
+let treeHig = document.getElementById("TreeVis").offsetHeight;
+
+d3.select("#Tree").style('transform', 'translate(' + 0 + ',' + (treeHig - 30 - 306) / 2 + 'px)')
+
+
+let rectHig = document.getElementById("RectView").offsetHeight;
+
+d3.select("#RectV").style('transform', 'translate(' + 0 + ',' + (rectHig - 30 - 485) / 2 + 'px)')
+
+
 var width_R = 525;
 var height_R = 288
 
